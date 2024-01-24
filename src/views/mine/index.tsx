@@ -5,8 +5,8 @@ interface Iprops {
   childern?: ReactNode
 }
 
-const Discover: FC<Iprops> = () => {
-  return <div>Discover</div>
+const Mine: FC<Iprops> = () => {
+  return <div>Mine</div>
 }
 
-export default memo(Discover)
+export default memo(Mine)
